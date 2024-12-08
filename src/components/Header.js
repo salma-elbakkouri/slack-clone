@@ -20,7 +20,7 @@ const Header = () => {
         <a href='#' className='font-medium tracking-wide text-dark-gray'><FontAwesomeIcon icon={faSearch} className="h-[20px] ml-1 mt-[5px] icon-bold" /></a>
         <a href='#' className='font-medium tracking-wide text-dark-gray hover:underline hover:decoration-1'>Sign in</a>
         <button className='font-medium w-[150px] tracking-wide text-dark-gray bg-white text-dark-purple p-2 border-[1px] border-dark-purple rounded-[4px] hover:border-[2px]'>TALK TO SALES</button>
-        <button className='font-medium w-[150px] tracking-wide text-dark-gray bg-dark-purple p-2 text-white border-[1.7px] border-dark-purple rounded-md hover:bg-very-dark-purple'>GET STARTED</button>
+        <button className='font-medium w-[150px] tracking-wide text-dark-gray bg-dark-purple p-2 text-white border-[1.7px] border-dark-purple  rounded-[4px] hover:bg-very-dark-purple'>GET STARTED</button>
 
       </div>
     </header>

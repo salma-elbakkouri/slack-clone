@@ -1,13 +1,12 @@
 import './styles/App.css';
 import Header from './components/Header'; 
+import MainSection from './components/MainSection';
 
 function App() {
   return (
     <div className="App">
     <Header />
-    <main>
-      <h2 className='mt-40'>body</h2>
-    </main>
+    <MainSection/>
   </div>
   );
 }
