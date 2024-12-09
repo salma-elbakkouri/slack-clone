@@ -12,8 +12,8 @@ module.exports = {
         'very-dark-purple': '#3f1344',
       },
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
-        heading: ['Barlow', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'], // For body text
+        heading: ['Barlow', 'sans-serif'], // For headings
       }
     },
   },
