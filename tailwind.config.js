@@ -10,6 +10,7 @@ module.exports = {
         'dark-purple': '#611f69',
         'light-purple':'#611f69',
         'very-dark-purple': '#3f1344',
+        'custom-pink': '#f9f0ff',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'], // For body text

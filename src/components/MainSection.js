@@ -11,8 +11,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHand, faFile, faStar } from '@fortawesome/free-regular-svg-icons';
 import { faThunderstorm } from '@fortawesome/free-solid-svg-icons';
 
-
-
 const MainSection = () => {
     return (
         <div className='flex flex-col items-center justify-between mt-[30px]'>
@@ -50,15 +48,17 @@ const MainSection = () => {
             >
                 Your browser does not support the video tag!
             </video>
-            <h3 className='tracking-wide mt-10 font-[600] text-[50px] w-[80%]'>Your people, projects, apps, and AI, all on the world’s most beloved work operating system.</h3>
-            <div className="flex flex-row items-center justify-between gap-8 mb-20 mt-10">
-                <p className='font-medium'><FontAwesomeIcon icon={faHand} className="mr-2 h-[17px] text-black" /> COLLABORATION</p>
-                <p className='font-medium'><FontAwesomeIcon icon={faFile} className="mr-2 h-[17px] text-black" /> PROJECT MANAGEMENT</p>
-                <p className='font-medium'><FontAwesomeIcon icon={faThunderstorm} className="mr-2 h-[17px] text-transparent stroke-black stroke-[40px]" /> INTEGRATIONS</p>
-                <p className='font-medium'><FontAwesomeIcon icon={faStar} className="mr-2 h-[17px] text-black" /> SLACK AI</p>
+            <div className='bg-gradient-to-b from-custom-pink to-white rounded-t-[500px] flex flex-col items-center justify-between mt-4 p-20'>
+                <h3 className='tracking-wide mt-10 font-[600] text-[40px] w-[70%]'>Your people, projects, apps, and AI, all on the world’s most beloved work operating system.</h3>
+                <div className="flex flex-row items-center justify-between gap-8 mb-20 mt-[70px] w-[65%] ">
+                    <p className='font-medium'><FontAwesomeIcon icon={faHand} className="mr-2 h-[17px] text-black" /> COLLABORATION</p>
+                    <p className='font-medium'><FontAwesomeIcon icon={faFile} className="mr-2 h-[17px] text-black" /> PROJECT MANAGEMENT</p>
+                    <p className='font-medium'><FontAwesomeIcon icon={faThunderstorm} className="mr-2 h-[17px] text-transparent stroke-black stroke-[40px]" /> INTEGRATIONS</p>
+                    <p className='font-medium'><FontAwesomeIcon icon={faStar} className="mr-2 h-[17px] text-black" /> SLACK AI</p>
+                </div>
             </div>
-        </div>
 
+        </div>
     );
 };
 
